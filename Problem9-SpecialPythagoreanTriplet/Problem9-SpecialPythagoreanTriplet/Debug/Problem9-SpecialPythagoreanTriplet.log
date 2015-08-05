@@ -1,0 +1,31 @@
+﻿Build started 2/19/2015 2:51:44 PM.
+     1>Project "C:\Sandbox\Problem9-SpecialPythagoreanTriplet\Problem9-SpecialPythagoreanTriplet\Problem9-SpecialPythagoreanTriplet.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Problem9-SpecialPythagoreanTriplet.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "Problem9-SpecialPythagoreanTriplet.cpp"
+         Problem9-SpecialPythagoreanTriplet.cpp
+     1>c:\sandbox\problem9-specialpythagoreantriplet\problem9-specialpythagoreantriplet\problem9-specialpythagoreantriplet.cpp(18): error C2678: binary '!=' : no operator found which takes a left-hand operand of type 'std::_Array_iterator<_Ty,7>' (or there is no acceptable conversion)
+                 with
+                 [
+                     _Ty=int
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(1608): could be 'bool std::_Array_const_iterator<_Ty,7>::operator !=(const std::_Array_const_iterator<_Ty,7> &) const'
+                 with
+                 [
+                     _Ty=int
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(512): or       'bool std::operator !=(const std::exception_ptr &,const std::exception_ptr &)' [found using argument-dependent lookup]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(517): or       'bool std::operator !=(std::nullptr_t,const std::exception_ptr &)' [found using argument-dependent lookup]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(522): or       'bool std::operator !=(const std::exception_ptr &,std::nullptr_t)' [found using argument-dependent lookup]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\system_error(419): or       'bool std::operator !=(const std::error_code &,const std::error_condition &) throw()' [found using argument-dependent lookup]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\system_error(426): or       'bool std::operator !=(const std::error_condition &,const std::error_code &) throw()' [found using argument-dependent lookup]
+                 while trying to match the argument list '(std::_Array_iterator<_Ty,7>, int)'
+                 with
+                 [
+                     _Ty=int
+                 ]
+     1>c:\sandbox\problem9-specialpythagoreantriplet\problem9-specialpythagoreantriplet\problem9-specialpythagoreantriplet.cpp(37): warning C4244: 'initializing' : conversion from 'uint64_t' to 'int', possible loss of data
+     1>Done Building Project "C:\Sandbox\Problem9-SpecialPythagoreanTriplet\Problem9-SpecialPythagoreanTriplet\Problem9-SpecialPythagoreanTriplet.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.35

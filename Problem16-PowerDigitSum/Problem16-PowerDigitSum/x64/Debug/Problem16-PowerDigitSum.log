@@ -1,0 +1,14 @@
+﻿Build started 3/2/2015 2:04:23 PM.
+     1>Project "C:\Sandbox\Problem16-PowerDigitSum\Problem16-PowerDigitSum\Problem16-PowerDigitSum.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\Problem16-PowerDigitSum.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt "Problem16-PowerDigitSum.cpp"
+         Problem16-PowerDigitSum.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Sandbox\Problem16-PowerDigitSum\x64\Debug\Problem16-PowerDigitSum.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Sandbox\Problem16-PowerDigitSum\x64\Debug\Problem16-PowerDigitSum.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Sandbox\Problem16-PowerDigitSum\x64\Debug\Problem16-PowerDigitSum.lib" /MACHINE:X64 "x64\Debug\Problem16-PowerDigitSum.obj"
+         x64\Debug\stdafx.obj
+         Problem16-PowerDigitSum.vcxproj -> C:\Sandbox\Problem16-PowerDigitSum\x64\Debug\Problem16-PowerDigitSum.exe
+     1>Done Building Project "C:\Sandbox\Problem16-PowerDigitSum\Problem16-PowerDigitSum\Problem16-PowerDigitSum.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.80
