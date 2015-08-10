@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Problem21-AmicableNumbers", "Problem21-AmicableNumbers\Problem21-AmicableNumbers.vcxproj", "{74301989-AF6B-4D05-9EB4-67DAAA61EE67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74301989-AF6B-4D05-9EB4-67DAAA61EE67}.Debug|Win32.ActiveCfg = Debug|Win32
+		{74301989-AF6B-4D05-9EB4-67DAAA61EE67}.Debug|Win32.Build.0 = Debug|Win32
+		{74301989-AF6B-4D05-9EB4-67DAAA61EE67}.Release|Win32.ActiveCfg = Release|Win32
+		{74301989-AF6B-4D05-9EB4-67DAAA61EE67}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,17 @@
+﻿Build started 8/10/2015 1:51:50 PM.
+     1>Project "D:\Github\ProjectEuler\Problem21-AmicableNumbers\Problem21-AmicableNumbers\Problem21-AmicableNumbers.vcxproj" on node 2 (Rebuild target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (AmicableNumbers.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\Problem21-AmicableNumbers.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Problem21-AmicableNumbers.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "Problem21-AmicableNumbers.cpp"
+         Problem21-AmicableNumbers.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Github\ProjectEuler\Problem21-AmicableNumbers\Debug\Problem21-AmicableNumbers.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Github\ProjectEuler\Problem21-AmicableNumbers\Debug\Problem21-AmicableNumbers.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Github\ProjectEuler\Problem21-AmicableNumbers\Debug\Problem21-AmicableNumbers.lib" /MACHINE:X86 "Debug\Problem21-AmicableNumbers.obj"
+         Debug\stdafx.obj
+         Problem21-AmicableNumbers.vcxproj -> D:\Github\ProjectEuler\Problem21-AmicableNumbers\Debug\Problem21-AmicableNumbers.exe
+     1>Done Building Project "D:\Github\ProjectEuler\Problem21-AmicableNumbers\Problem21-AmicableNumbers\Problem21-AmicableNumbers.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.87
